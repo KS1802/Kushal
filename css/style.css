@@ -416,7 +416,7 @@ a:hover {
   align-items: center;
 }
 .navbar li {
-  position: relative;
+  position: absolute;
 }
 .navbar > ul > li {
   white-space: nowrap;
