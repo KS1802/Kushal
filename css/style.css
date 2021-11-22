@@ -403,7 +403,7 @@ a:hover {
 
 /* Style the tab content */
 .tabcontent {
-  display:contents;
+  display:none;
   padding: 6px 12px;
   border-top: none;
 }
