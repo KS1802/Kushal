@@ -382,6 +382,10 @@ a:hover {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 10px;}
+    
+
+.tab {
+  overflow: hidden;}
 
   /* Change background color of buttons on hover */
 .tab button:hover {
@@ -397,7 +401,7 @@ a:hover {
 
 /* Style the tab content */
 .tabcontent {
-  display: none;
+  display:list-item;
   padding: 6px 12px;
   border-top: none;
 }
@@ -762,7 +766,10 @@ a:hover {
   border-radius: 1rem;
   margin-bottom: 3rem;
   text-align: center;
+  
+  
 }
+
 
 
 .work-box .service-ico {
