@@ -416,7 +416,7 @@ a:hover {
   align-items: center;
 }
 .navbar li {
-  position: absolute;
+  position: relative;
 }
 .navbar > ul > li {
   white-space: nowrap;
@@ -455,7 +455,7 @@ a:hover {
 }
 .navbar a:hover:before, .navbar li:hover > a:before, .navbar .active:before {
   visibility: visible;
-  width: 80%;
+  width: 100%;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
   color: #fff;
