@@ -83,7 +83,8 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #0078ff;
+  background-color:rgb(202, 241, 230);
+  
 }
 
 .overlay-mf {
@@ -94,6 +95,7 @@ a:hover {
   height: 100%;
   width: 100%;
   opacity: 0.7;
+  ;
 }
 
 .paralax-mf {
@@ -142,6 +144,8 @@ a:hover {
   font-size: 3rem;
   font-weight: bold;
   text-transform: uppercase;
+  color: #1e1e1e !important;
+  
 }
 
 .subtitle-a {
