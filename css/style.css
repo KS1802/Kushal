@@ -346,7 +346,7 @@ a:hover {
   border-radius: 0.3rem;
   border: 1px solid transparent;
   transition: all 500ms ease;
-  cursor: pointer;
+  cursor: pointer;  
 }
 .button:focus {
   outline: 0;
@@ -356,7 +356,9 @@ a:hover {
   color: #fff;
   transition: all 500ms ease;
 }
-
+.button1{
+  width: 50%;
+}
 .button-a {
   text-decoration: none;
   background-color: #0078ff;
