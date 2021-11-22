@@ -394,7 +394,11 @@ a:hover {
 .tabcontent {
   animation: fadeEffect 1s; /* Fading effect takes 1 second */
 }
-
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
 
 /*--------------------------------------------------------------
 # Header
@@ -748,12 +752,8 @@ a:hover {
   margin-bottom: 3rem;
   text-align: center;
 }
-.work-box:hover .ico-circle {
-  transition: all 500ms ease;
-  color: #fff;
-  background-color: #0078ff;
-  box-shadow: 0 0 0 10px #cde1f8;
-}
+
+
 .work-box .service-ico {
   margin-bottom: 1rem;
   color: #1e1e1e;
